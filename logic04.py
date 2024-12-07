@@ -1,10 +1,10 @@
-def main(a,b):
+def main(a, b):
     """
-    Given two integers a, b,  check the following statement "Each of the numbers 'a' and 'b' is even".
-    Args:
-        a(int): parameter a
-        b(int): parameter b
-    Returns:
-        bool: answer
+    Ikki butun son a va b berilgan, "a va b har biri juft son" degan gapni tekshirish.
+    Argumentlar:
+        a(int): a parametri
+        b(int): b parametri
+    Qaytaradi:
+        bool: javob (True yoki False)
     """
     return
