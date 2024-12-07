@@ -1,500 +1,459 @@
-# Welcome
-# Boolean Data Types
+# Xush kelibsiz
+# Boolean Ma'lumot Turlari
 
-Automated grading of homework assignments and tests
-- fork this repository
-- solve the task
-- commit with proper message
-- commit with proper message
+Avtomatlashtirilgan uy vazifalari va testlarni baholash
+- Ushbu repozitoriyani fork qiling
+- Vazifani hal qiling
+- To'g'ri xabar bilan commit qiling
+- To'g'ri xabar bilan commit qiling
 
-# Problems
+# Muammolar
 ## logic01
 
-  Given three integers a, b, c,  check the following statement "The number b is between a and c".
+  Uchta butun son a, b, c berilgan, "b soni a va c orasida" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=3 b=4 c=5
-Output: True
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=6 b=4 c=5
-Output: False
-
+Kirish: a=3 b=4 c=5
+Chiqarish: True
 ```
 
-**Example 3:**
+**Misol 2:**
 
 ```Python
-Input: a=6 b=4 c=1
-Output: True
-
+Kirish: a=6 b=4 c=5
+Chiqarish: False
 ```
 
-**Constraints:**
+**Misol 3:**
+
+```Python
+Kirish: a=6 b=4 c=1
+Chiqarish: True
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic02
 
-  Given two integers a, b,  check the following statement "Each of the numbers 'a' and 'b' is positive".
+  Ikki butun son a va b berilgan, "a va b sonlarining har biri musbat" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=5 b=3
-Output: True
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=6 b=-4
-Output: False
-
+Kirish: a=5 b=3
+Chiqarish: True
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=6 b=-4
+Chiqarish: False
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic03
 
-  Given two integers a, b,  check the following statement "Each of the numbers A and B is negative".
+  Ikki butun son a va b berilgan, "a va b sonlarining har biri manfiy" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=-1 b=-3
-Output: True
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=6 b=-4
-Output: False
-
+Kirish: a=-1 b=-3
+Chiqarish: True
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=6 b=-4
+Chiqarish: False
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic04
 
-  Given two integers a, b,  check the following statement "Each of the numbers a and b is even".
+  Ikki butun son a va b berilgan, "a va b sonlarining har biri juft" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=3 b=6
-Output: False
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=6 b=4
-Output: True
-
+Kirish: a=3 b=6
+Chiqarish: False
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=6 b=4
+Chiqarish: True
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic05
 
-  Given two integers a, b,  check the following statement "Each of the numbers A and B is odd".
+  Ikki butun son a va b berilgan, "a va b sonlarining har biri toq" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=3 b=8
-Output: False
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=9 b=1
-Output: True
-
+Kirish: a=3 b=8
+Chiqarish: False
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=9 b=1
+Chiqarish: True
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic06
 
-  Given two integers a, b,  check the following statement "At least one of the numbers A and B is positive".
+  Ikki butun son a va b berilgan, "a va b sonlarining kamida biri musbat" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=-3 b=8
-Output: True
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=-9 b=-1
-Output: False
-
+Kirish: a=-3 b=8
+Chiqarish: True
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=-9 b=-1
+Chiqarish: False
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic07
 
-  Given two integers a, b,  check the following statement "At least one  of the numbers 'a' and 'b' is negative".
+  Ikki butun son a va b berilgan, "a va b sonlarining kamida biri manfiy" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=-3 b=8
-Output: True
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=4 b=1
-Output: False
-
+Kirish: a=-3 b=8
+Chiqarish: True
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=4 b=1
+Chiqarish: False
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic08
 
-  Given two integers a, b,  check the following statement "At least one of the numbers 'a' and 'b' is even".
+  Ikki butun son a va b berilgan, "a va b sonlarining kamida biri juft" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=6 b=3
-Output: True
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=7 b=1
-Output: False
-
+Kirish: a=6 b=3
+Chiqarish: True
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=7 b=1
+Chiqarish: False
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic09
 
-  Given two integers a, b,  check the following statement "At least one of the numbers 'a' and 'b' is odd".
+  Ikki butun son a va b berilgan, "a va b sonlarining kamida biri toq" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=5 b=3
-Output: True
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=4 b=9
-Output: True
-
+Kirish: a=5 b=3
+Chiqarish: True
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=4 b=9
+Chiqarish: True
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic10
 
-  Given integer a,  check the following statement "The integer is two-digit number".
+  Butun son a berilgan, "Son ikki raqamli" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=3
-Output: False
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=12
-Output: True
-
+Kirish: a=3
+Chiqarish: False
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=12
+Chiqarish: True
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic11
 
-  Given integer a,  check the following statement "The integer is three-digit number".
+  Butun son a berilgan, "Son uch raqamli" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=3
-Output: False
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=12
-Output: False
-
+Kirish: a=3
+Chiqarish: False
 ```
 
-**Example 2:**
+**Misol 2:**
 
 ```Python
-Input: a=123
-Output: True
-
+Kirish: a=12
+Chiqarish: False
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=123
+Chiqarish: True
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic12
 
-  Given a two-digit integer a,  check the following statement "All digits of the number are the same".
+  Ikki raqamli butun son a berilgan, "Sonning barcha raqamlari teng" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=32
-Output: False
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=22
-Output: True
-
+Kirish: a=32
+Chiqarish: False
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=22
+Chiqarish: True
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic13
 
-  Given a two-digit integer a,  check the following statement "All digits sum is even".
+  Ikki raqamli butun son a berilgan, "Sonning barcha raqamlarining yig'indisi juft" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=45
-Output: False
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=35
-Output: True
-
+Kirish: a=45
+Chiqarish: False
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=35
+Chiqarish: True
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic14
 
-  Given a two-digit integer a,  check the following statement "All digits sum is odd".
+  Ikki raqamli butun son a berilgan, "Sonning barcha raqamlarining yig'indisi toq" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=45
-Output: True
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=35
-Output: False
-
+Kirish: a=45
+Chiqarish: True
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=35
+Chiqarish: False
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=num<=10<sup>18</sup>
 
 ## logic15
 
-  Given a three-digit integer a,  check the following statement "All digits sum is odd".
+  Uch raqamli butun son a berilgan, "Sonning barcha raqamlarining yig'indisi toq" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=152
-Output: False
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=335
-Output: True
-
+Kirish: a=152
+Chiqarish: False
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=335
+Chiqarish: True
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=a<=10<sup>18</sup>
 
 ## logic16
 
-  Given integer a,  check the following statement "The integer is a five-digit number".
+  Butun son a berilgan, "Son besh raqamli" degan bayonotni tekshiring.
 
-**Example 1:**
-
-```Python
-Input: a=15234
-Output: True
-
-```
-
-**Example 2:**
+**Misol 1:**
 
 ```Python
-Input: a=763
-Output: False
-
+Kirish: a=15234
+Chiqarish: True
 ```
 
-**Constraints:**
+**Misol 2:**
+
+```Python
+Kirish: a=763
+Chiqarish: False
+```
+
+**Cheklovlar:**
 - -10<sup>18</sup><=a<=10<sup>18</sup>
+
+Here is the Uzbek translation for the logic problems you provided:
+
+---
 
 ## logic17
 
-  Given a five-digit integer a,  check the following statement "All digits of the number are in ascending order".
+Besh raqamli butun son `a` berilgan, "Raqamlarning hammasi o'sish tartibida" degan gapni tekshiring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: a=75421
 Output: True
-
 ```
 
-**Example 2:**
+**Misol 2:**
 
 ```Python
 Input: a=13763
 Output: False
-
 ```
 
-**Constraints:**
+**Cheklovlar:**
 - -10<sup>18</sup><=a<=10<sup>18</sup>
 
 ## logic18
 
-  Given a five-digit integer a, check the following statement "All digits of the number are in descending order".
+Besh raqamli butun son `a` berilgan, "Raqamlarning hammasi kamayish tartibida" degan gapni tekshiring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: a=75421
 Output: False
-
 ```
 
-**Example 2:**
+**Misol 2:**
 
 ```Python
 Input: a=12347
 Output: True
-
 ```
 
-**Constraints:**
+**Cheklovlar:**
 - -10<sup>18</sup><=a<=10<sup>18</sup>
 
 ## logic19
 
-  Given an integer x, return true if x is palindrome integer.
-  An integer is a palindrome when it reads the same backward as forward.
+Butun son `x` berilgan, `x` palindrom bo'lsa, ya'ni orqaga va oldinga qaraganda bir xil o'qilsa, `True` qaytaring.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: x=121
 Output: True
-
 ```
 
-**Example 2:**
+**Misol 2:**
 
 ```Python
 Input: x=10
 Output: False
-
 ```
 
-**Example 3:**
+**Misol 3:**
 
 ```Python
 Input: x=11
 Output: True
-
 ```
 
-**Constraints:**
+**Cheklovlar:**
 - 9 < x < 1000
 
 ## logic20
 
-  A number consisting of one and zero is given (the number starts at once). 
-  If the number of ones is greater than zero, true, otherwise False is returned.
-  n five-digit number.
+Birlar va nolardan iborat bo'lgan son berilgan (son birlar bilan boshlanadi). Agar birlar soni nolardan ko'p bo'lsa, `True`, aks holda `False` qaytarilsin. `n` besh raqamli son.
 
-**Example 1:**
+**Misol 1:**
 
 ```Python
 Input: n=1100
 Output: False
-
 ```
 
-**Example 2:**
+**Misol 2:**
 
 ```Python
 Input: n=10011
 Output: True
-
 ```
 
-**Constraints:**
+**Cheklovlar:**
 - 0 < n < 100000
 
-# Warning
-- don't copy other solutions or any solution
-- don't remove comments
+---
+
+**Eslatma:**
+- Boshqa yechimlarni nusxalamang yoki hech qanday yechimni olib tashlamang.
