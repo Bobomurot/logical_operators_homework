@@ -1,9 +1,9 @@
 def main(a):
     """
-    Given integer a,  check the following statement "The integer is a five-digit number".
+    Berilgan a butun soni, quyidagi holatni tekshiring: "Son besh xonali sonmi?"
     Args:
-        a(int): parameter a
+        a(int): parametr a
     Returns:
-        bool: answer
+        bool: javob
     """
-    return
+    return 
