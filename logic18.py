@@ -1,8 +1,8 @@
 def main(a):
-    """Given a five-digit integer a, check the following statement "All digits of the number are in descending order".
+    """Berilgan besh xonali a butun soni, quyidagi holatni tekshiring: "Sonning barcha raqamlari kamayib boruvchi tartibda."
     Args:
-        a(int): parameter a
+        a(int): parametr a
     Returns:
-        bool: answer
+        bool: javob
     """
-    return
+    return 
