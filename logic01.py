@@ -1,11 +1,11 @@
 def main(a,b,c):
     """
-    Given three integers a, b, c,  check the following statement "The number b is between a and c".
-    Args:
-        a(int): parameter a
-        b(int): parameter b
-        c(int): parameter c
-    Returns:
-        bool: answer
+    Uchta butun son a, b, c berilgan, "b soni a va c orasida joylashgan" degan gapni tekshiring.
+    Argumentlar:
+        a(int): a parametri
+        b(int): b parametri
+        c(int): c parametri
+    Qaytaradi:
+        bool: javob (True yoki False)
     """
     return
