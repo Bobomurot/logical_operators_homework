@@ -1,9 +1,10 @@
 def main(a):
     """
-    Given a two-digit integer a,  check the following statement "All digits sum is odd".
-    Args:
-        a(int): parameter a
-    Returns:
-        bool: answer
+    Berilgan ikkita raqamli a sonida "Sonning barcha raqamlarining yig'indisi toq" ekanligini tekshirish.
+    Argumentlar:
+        a(int): a parametri (ikkita raqamli son)
+    Qaytaradi:
+        bool: javob (True yoki False)
     """
-    return
+    # Raqamlarning yig'indisi toqmi?
+    return 
