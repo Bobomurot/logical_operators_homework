@@ -1,11 +1,11 @@
 def main(x):
     """
-    Given a two digit integer x, return true if x is palindrome integer.
-    An integer is a palindrome, when it reads the same backward as forward.
+    Berilgan ikki xonali x butun soni, uning polindrom ekanligini tekshirib, javob qaytaring.
+    Polindrom son, orqaga qarab o'qilganda ham bir xil bo'ladi.
 
     Args:
-        x(int): parameter x
+        x(int): parametr x
     Returns:
-        bool: answer
+        bool: javob
     """
     return 
