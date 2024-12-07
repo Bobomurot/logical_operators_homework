@@ -434,19 +434,19 @@ Output: True
 
 ## logic20
 
-Birlar va nolardan iborat bo'lgan son berilgan (son birlar bilan boshlanadi). Agar birlar soni nolardan ko'p bo'lsa, `True`, aks holda `False` qaytarilsin. `n` besh raqamli son.
+n uch xonali son berilgan. Raqamlar yig'indisi raqamlar ko'paymasidan kichikligini tekshiring. Agar kichik bo'lsa True aks holatda False.
 
 **Misol 1:**
 
 ```Python
-Input: n=1100
+Input: n=113
 Output: False
 ```
 
 **Misol 2:**
 
 ```Python
-Input: n=10011
+Input: n=234
 Output: True
 ```
 
