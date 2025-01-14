@@ -6,4 +6,8 @@ def main(a):
     Qaytaradi:
         bool: javob (True yoki False)
     """
-    return 
+    a = abs(a)
+    x1 = a // 10
+    x2 = a % 10
+    
+    return x1 == x2

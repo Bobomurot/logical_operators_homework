@@ -7,4 +7,7 @@ def main(a, b):
     Qaytaradi:
         bool: javob (True yoki False)
     """
-    return 
+    return a % 2 == 0 or b % 2 == 0
+x = main(4, 7)
+print(x)
+

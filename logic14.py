@@ -7,4 +7,9 @@ def main(a):
         bool: javob (True yoki False)
     """
     # Raqamlarning yig'indisi toqmi?
-    return 
+    a = abs(a)
+    
+    x1 = a // 10
+    x2 = a % 10
+    t = x1 + x2
+    return t % 2 == 1

@@ -8,4 +8,7 @@ def main(a,b,c):
     Qaytaradi:
         bool: javob (True yoki False)
     """
-    return
+    if a < b and b < c:
+        return True
+    else:
+        return False

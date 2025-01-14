@@ -7,4 +7,4 @@ def main(a, b):
     Qaytaradi:
         bool: javob (True yoki False)
     """
-    return 
+    return 0 > a and 0 > b

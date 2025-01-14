@@ -6,7 +6,14 @@ def main(a):
     Qaytaradi:
         bool: javob (True yoki False)
     """
-   
+    a = abs(a)
+    
+    x1 = a // 10
+    x2 = a % 10
+    t = x1 + x2
+    return t % 2 == 0
 
     # Raqamlarning yig'indisi juftmi?
     return 
+x = main(44)
+print(x)

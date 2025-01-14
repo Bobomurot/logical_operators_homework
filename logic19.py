@@ -8,4 +8,7 @@ def main(x):
     Returns:
         bool: javob
     """
-    return 
+    x = int(x)
+    a1 = x // 10
+    a2 = x % 10
+    return a1 == a2

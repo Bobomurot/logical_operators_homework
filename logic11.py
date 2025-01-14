@@ -6,4 +6,4 @@ def main(a):
     Qaytaradi:
         bool: javob (True yoki False)
     """
-    return
+    return 100 <= a <= 999

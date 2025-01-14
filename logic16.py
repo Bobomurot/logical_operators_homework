@@ -6,4 +6,6 @@ def main(a):
     Returns:
         bool: javob
     """
-    return 
+    return 10000 <= a <= 99999
+
+

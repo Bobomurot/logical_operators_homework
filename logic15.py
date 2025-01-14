@@ -8,4 +8,11 @@ def main(a):
     """
     
     # Raqamlarning yig'indisi toqmi?
-    return 
+    a = abs(a)
+    x1 = a // 100
+    x2 = a // 10
+    x3 = a % 10
+    t = x1 + x2 + x3
+    return t % 2 == 1
+x = main(335)
+print(x)

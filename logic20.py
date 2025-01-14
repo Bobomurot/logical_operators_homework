@@ -6,5 +6,12 @@ def main(n):
     Returns:
         bool: answer
     """
+    n = abs(n)
+    a1 = n // 100
+    a2 = (n // 10) % 10
+    a3 = n % 10
+    
+    x1 = a1 + a2 + a3
+    x2 = a3 * a2 * a1 
 
-    return
+    return x1 < x2
